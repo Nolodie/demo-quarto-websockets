@@ -1,0 +1,79 @@
+h1 { 
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+h2 { color: yellow; }
+
+#game {
+  float: left;
+  margin: 0.5em;
+}
+
+table#gameBoard td {
+  width: 7em;
+  height: 7em;
+  border: 2px solid black;
+}
+
+/* #gameBoard .ui-selected { background: yellow; } */
+/* #piecesSet1 .ui-selecting  { opacity: 0.2; } */
+/* #piecesSet1 .ui-selected { opacity: 0.5; } */
+/* #piecesSet2 .ui-selecting { opacity: 0.2; } */
+/* #piecesSet2 .ui-selected { opacity: 0.5; } */
+
+
+#pieces > div > div {
+  height: 3.3em;
+  width: 3.3em;
+  margin-top: 0.6em;
+  margin-right: 0.6em;
+}
+
+#piecesSet1 > div {
+  display: inline-block;
+  background-color: #472400;
+}
+
+#piecesSet2 > div {
+  display: inline-block;
+  background-color: #FFCC66;
+}
+
+#P15, #P16, #P17, #P18, #P25, #P26, #P27, #P28 {
+  border-radius: 5em;
+}
+
+#P13, #P14, #P17, #P18, #P23, #P24, #P27, #P28 {
+  box-shadow: 0.3em 0.3em #000000;
+}
+
+#P12, #P13, #P16, #P17 {
+  background: radial-gradient(#FFFFFF, #472400, #472400);
+}
+
+#P22, #P23, #P26, #P27 {
+  background: radial-gradient(#FFFFFF, #FFCC66, #FFCC66);
+}
+
+#chat {
+  float: right;
+  margin: 0.7em;
+}
+
+input[type=text] {
+  height: 4.5em;
+  width: 15em;
+  margin-top: 0.5em;
+  margin-right: 0.15em;
+}
+
+input[type=submit] {
+  height: 5em;
+  width: 2.6em;
+}
+
+#pendingPiece {
+  background: #FFCCAA;
+}
